@@ -16,5 +16,6 @@ if __name__ == "__main__":
     plt.xlabel('Paragraph Length (Number of Words)')
     plt.ylabel('Density')
     plt.title('Normalized Distribution of Paragraph Lengths by Label')
+    plt.savefig("distribution_of_paragraph_lengths_normalised.png")
     plt.show()
 

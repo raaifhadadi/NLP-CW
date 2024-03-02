@@ -16,4 +16,5 @@ if __name__ == "__main__":
     plt.xlabel('Paragraph Length (Number of Words)')
     plt.ylabel('Frequency')
     plt.title('Distribution of Paragraph Lengths by Label')
+    plt.savefig("distribution_of_paragraph_lengths.png")
     plt.show()
